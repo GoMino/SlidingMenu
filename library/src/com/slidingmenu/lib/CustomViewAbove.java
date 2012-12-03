@@ -120,7 +120,7 @@ public class CustomViewAbove extends ViewGroup {
 		private boolean mCalledSuper;
 
 		private boolean mLastTouchAllowed = false;
-		private final int mSlidingMenuThreshold = 10;
+		private final int mSlidingMenuThreshold = 20;//10 was to low for devices with bigger screen
 		private CustomViewBehind mCustomViewBehind;
 		private boolean mEnabled = true;
 
